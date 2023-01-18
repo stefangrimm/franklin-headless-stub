@@ -1,12 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "type": "object",
-  "properties": {
-    "test": {
-      "type": "array",
-      "items": [
-        {
+  "$defs": {
+    "sheets": {
+      "test": {
+        "data": {
           "type": "object",
+          "description": "Test data",
           "properties": {
             "field1": {
               "type": "string"
@@ -14,10 +13,18 @@
             "field2": {
               "type": "string"
             }
-          },
-          "required": ["field1", "field2"]
+          }
         }
-      ]
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "test": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/test"
+      }
     }
   },
   "required": ["test"]

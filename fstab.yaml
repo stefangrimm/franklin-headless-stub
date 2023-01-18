@@ -1,0 +1,2 @@
+mountpoints:
+  /: http://localhost:4503/

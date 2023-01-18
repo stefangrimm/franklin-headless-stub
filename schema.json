@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "$defs": {
     "sheets": {
-      "test": {
+      "/content/test/test.json": {
         "data": {
           "type": "object",
           "description": "Test data",
@@ -23,7 +23,7 @@
     "test": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/sheets/test/data"
+        "$ref": "#/$defs/sheets/~1content~1test~1test.json/data"
       }
     }
   },

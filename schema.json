@@ -3,16 +3,14 @@
   "$defs": {
     "sheets": {
       "/content/test/test.json": {
-        "data": {
-          "type": "object",
-          "description": "Test data",
-          "properties": {
-            "field1": {
-              "type": "string"
-            },
-            "field2": {
-              "type": "string"
-            }
+        "type": "object",
+        "description": "Test data",
+        "properties": {
+          "field1": {
+            "type": "string"
+          },
+          "field2": {
+            "type": "string"
           }
         }
       }
@@ -23,7 +21,7 @@
     "test": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/sheets/~1content~1test~1test.json/data"
+        "$ref": "#/$defs/sheets/~1content~1test~1test.json"
       }
     }
   },

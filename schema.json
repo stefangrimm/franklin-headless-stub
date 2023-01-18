@@ -1,78 +1,8 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      ":version": {
-        "type": "integer"
-      },
-      ":type": {
-        "type": "string"
-      },
-      ":names": {
-        "type": "array",
-        "items": [
-          {
-            "type": "string"
-          }
-        ]
-      },
-      "default": {
-        "type": "object",
-        "properties": {
-          "total": {
-            "type": "integer"
-          },
-          "offset": {
-            "type": "integer"
-          },
-          "limit": {
-            "type": "integer"
-          },
-          "columns": {
-            "type": "array",
-            "items": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "string"
-              }
-            ]
-          },
-          "data": {
-            "type": "array",
-            "items": [
-              {
-                "type": "object",
-                "properties": {
-                  "field1": {
-                    "type": "string"
-                  },
-                  "field2": {
-                    "type": "string"
-                  }
-                },
-                "required": [
-                  "field1",
-                  "field2"
-                ]
-              }
-            ]
-          }
-        },
-        "required": [
-          "total",
-          "offset",
-          "limit",
-          "columns",
-          "data"
-        ]
+    "/content/test/test.json": {
+      "data": {
+        "field1": "string",
+        "field2": "string"
       }
-    },
-    "required": [
-      ":version",
-      ":type",
-      ":names",
-      "default"
-    ]
+    }
   }

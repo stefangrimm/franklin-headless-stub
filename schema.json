@@ -1,24 +1,24 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "type": "object",
-    "properties": {
-      "test": {
-        "type": "object",
-        "properties": {
-          "field1": {
-            "type": "string"
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "test": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "field1": {
+              "type": "string"
+            },
+            "field2": {
+              "type": "string"
+            }
           },
-          "field2": {
-            "type": "string"
-          }
-        },
-        "required": [
-          "field1",
-          "field2"
-        ]
-      }
-    },
-    "required": [
-      "test"
-    ]
-  }
+          "required": ["field1", "field2"]
+        }
+      ]
+    }
+  },
+  "required": ["test"]
+}

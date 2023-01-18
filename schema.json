@@ -1,8 +1,17 @@
 {
-    "/content/test/test.json": {
-      "data": {
-        "field1": "string",
-        "field2": "string"
-      }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Test Schema",
+  "type": "object",
+  "properties": {
+    "field1": {
+      "type": "string"
+    },
+    "field2": {
+      "type": "string"
     }
-  }
+  },
+  "required": [
+    "field1",
+    "field2"
+  ]
+}

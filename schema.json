@@ -21,7 +21,7 @@
     "test": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/test"
+        "$ref": "#/$defs/test/data"
       }
     }
   },

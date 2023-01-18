@@ -23,7 +23,7 @@
     "test": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/sheets/~1content~1test^1test.json/default"
+        "$ref": "#/$defs/sheets/~1content~1test~1test.json/default"
       }
     }
   },

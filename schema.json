@@ -16,7 +16,7 @@
           }
         }
       },
-      "/conf/wknd-shared/settings/dam/cfm/models/adventure.json": {
+      "/conf/wknd-shared/settings/dam/cfm/models/adventure.franklingest.json": {
         "default": {
           "type": "object",
           "description": "WKND adventure fragments",
@@ -73,7 +73,7 @@
     "adventures": {
       "type": "array",
       "items": {
-        "$ref": "#/$defs/sheets/~1conf~1wknd-shared~1settings~1dam~1cfm~1models~1adventure.json/default"
+        "$ref": "#/$defs/sheets/~1conf~1wknd-shared~1settings~1dam~1cfm~1models~1adventure.franklingest.json/default"
       }
     }
   },

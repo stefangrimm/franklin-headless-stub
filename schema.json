@@ -15,6 +15,50 @@
             }
           }
         }
+      },
+      "/conf/wknd-shared/settings/dam/cfm/models/adventure": {
+        "default": {
+          "type": "object",
+          "description": "WKND adventure fragments",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "adventuretype": {
+              "type": "string"
+            },
+            "triplength": {
+              "type": "string"
+            },
+            "activity": {
+              "type": "string"
+            },
+            "groupsize": {
+              "type": "integer"
+            },
+            "difficulty": {
+              "type": "string"
+            },
+            "price": {
+              "type": "number"
+            },
+            "primaryimage": {
+              "type": "string"
+            },
+            "itinerary": {
+              "type": "string"
+            },
+            "gearlist": {
+              "type": "string"
+            }
+          }
+        }
       }
     }
   },
@@ -24,6 +68,12 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/sheets/~1content~1test~1test.json/default"
+      }
+    },
+    "adventures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sheets/~1conf~1wknd-shared~1settings~1dam~1cfm~1models~1adventure.json~1default"
       }
     }
   },

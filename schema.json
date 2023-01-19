@@ -16,7 +16,7 @@
           }
         }
       },
-      "/conf/wknd-shared/settings/dam/cfm/models/adventure": {
+      "/conf/wknd-shared/settings/dam/cfm/models/adventure.json": {
         "default": {
           "type": "object",
           "description": "WKND adventure fragments",

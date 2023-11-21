@@ -1,2 +1,5 @@
 mountpoints:
-  /: http://localhost:4503/
+  /:
+    url: https://txw6tavv82.execute-api.us-east-1.amazonaws.com/helix-services-auth/fragment-ingestor/1.5.1/shon/9784fa46aab9b4abb961f221047993acbfda2d903ff2ffdea97d1212af3/
+    type: markup
+    suffix: ".json"
